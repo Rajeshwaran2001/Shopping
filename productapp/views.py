@@ -70,6 +70,7 @@ def insertProduct(request, id=0):
             if form.is_valid():
                 form.save()
                 return redirect('/listproduct')
+    
 
 @login_required()
 def deleteProduct(request, id=0):
