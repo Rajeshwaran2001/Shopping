@@ -81,8 +81,12 @@ WSGI_APPLICATION = 'Shopping.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd4r2024ilr3bvs',
+        'USER': 'bywxnjiqweduou',
+        'PASSWORD': 'cd0a3fa5d1d93abf87d6c4531e03c1dbec5383d3d7c9f4c3728d04ef45c04782',
+        'HOST': 'ec2-44-195-247-84.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
