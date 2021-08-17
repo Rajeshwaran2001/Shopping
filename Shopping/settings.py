@@ -76,12 +76,24 @@ WSGI_APPLICATION = 'Shopping.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
 
+    'default': {
+
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+
+        'NAME': 'dao8kh7mlqb41n',
+
+        'USER': 'inbrchfxxcqdiz',
+
+        'PASSWORD': '81f6d3ea823f2b8489979fb4f8fd981c3726077475020063ccf3fd67be35a177',
+
+        'HOST': 'ec2-34-228-100-83.compute-1.amazonaws.com',
+
+        'PORT': '5432',
+
+    }
+
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
