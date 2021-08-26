@@ -4,8 +4,6 @@ from .models import Category
 from .forms import CategoryForm
 from .models import Product
 from .forms import ProductForm
-import requests
-
 
 def home(request):
     return render(request, 'index.html')
